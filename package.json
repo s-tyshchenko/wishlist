@@ -1,0 +1,33 @@
+{
+  "name": "wishlist",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@heroicons/react": "^2.1.5",
+    "@vercel/blob": "^0.23.4",
+    "@vercel/postgres-kysely": "^0.9.0",
+    "clsx": "^2.1.1",
+    "kysely": "^0.27.4",
+    "next": "14.2.5",
+    "react": "^18",
+    "react-dom": "^18.3.1",
+    "react-loading-skeleton": "^3.4.0",
+    "react-textarea-autosize": "^8.5.3"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "eslint": "^8",
+    "eslint-config-next": "14.2.5",
+    "postcss": "^8",
+    "tailwindcss": "^3.4.1",
+    "typescript": "^5"
+  }
+}
