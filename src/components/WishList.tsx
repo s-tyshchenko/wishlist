@@ -20,7 +20,7 @@ const WishList: FC = () => {
 	if (items.length === 0) {
 		return (
 		  <div className="flex flex-col items-center justify-center gap-5">
-		  <p className="text-xs text-slate-500 text-center">Здесь могли бы быть твои желания, но пока их нет, пусть здесь будет котик</p>
+		  <p className="text-xs text-slate-500 text-center">здесь могли бы быть твои желания, но пока их нет, пусть здесь будет котик</p>
 			  <p className="text-6xl">🐈</p>
 		  </div>
 		)
