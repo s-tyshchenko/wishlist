@@ -17,6 +17,15 @@ const WishList: FC = () => {
 
 	const columns = getColumns(items, 3);
 
+	if (items.length === 0) {
+		return (
+		  <div className="flex flex-col items-center justify-center gap-5">
+		  <p className="text-xs text-slate-500 text-center">Здесь могли бы быть твои желания, но пока их нет, пусть здесь будет котик</p>
+			  <p className="text-6xl">🐈</p>
+		  </div>
+		)
+	}
+
 	return (
 	  <div className="z-10 w-full max-w-5xl font-mono text-sm">
 		  <div className="lg:flex lg:space-x-4">

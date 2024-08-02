@@ -69,7 +69,7 @@ export default function Home() {
 		}}
 	  >
 		  <header
-			className="w-full max-w-5xl m-auto rounded-b-3xl text-white bg-gradient-to-r from-purple-500 to-pink-500 text-sm px-6 py-6 text-center">
+			className="w-full max-w-5xl m-auto rounded-b-3xl text-white bg-gradient-to-b from-purple-500 to-pink-500 text-sm px-6 py-6 text-center">
 			  <div className="max-w-2xl m-auto p-6 rounded-lg">
 				  <h1 className={clsx('text-5xl mb-5')}>
 					  мечтай ✨
